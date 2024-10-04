@@ -1,0 +1,166 @@
+@import url('https://fonts.cdnfonts.com/css/charm');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+  .comfy {
+    font-family: 'Charm', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: black;
+  }
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.nav{
+    background-size: cover; 
+    background-position: center;
+    height: 500px;
+    display: flex;
+}
+.na{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: -440px;
+}
+.as{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.h1{
+    font-family: 'Charm', sans-serif;
+    margin-top: 170px;
+    margin-left: -1100px;
+    color: black;
+    font-size: 55px;
+}
+.h3{
+    margin-left: -1100px;
+    color: black;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.btnShow {
+    background-color: rgba(75, 75, 75, 0.5); /* Полупрозрачный белый фон */
+    border: 1px solid #ccc; 
+    color: black; 
+    font-size: 16px; 
+    padding: 20px; 
+    cursor: pointer; 
+    outline: none; 
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: -1100px;
+}
+
+.btnShow:hover {
+    opacity: 0.8; 
+}
+.iconShop{
+    cursor: pointer;
+}
+.iconShop:hover{
+    opacity: 0.8;
+}
+.a:hover{
+    opacity: 0.8;
+}
+.Featured{
+    text-align: center;
+}
+.r{
+    color: #BA5D2C;
+    font-size: 40px;
+}
+.nav2{
+    margin-top: 50px;
+}
+.kulula{
+    position: absolute;
+    color: white;
+    background-color: #BA5D2C;
+    width: 25px;
+    height: 22px;
+    border-radius: 50%;
+    padding: 2px 0px;
+    text-align: center;
+    bottom: 530px;
+    left: 1080px;
+}
+.nav2{
+    background-color: #F1F5F8;
+    margin-top: -400px;
+    padding: 60px;
+    color: #235275;
+}
+.h2{
+    text-align: center;
+}
+.nav3{
+    margin-top: 40px;
+}
+.lorem{
+    width: 1000px;
+    /* text-align: center; */
+    margin-left: 130px;
+    margin-top: 40px;
+    font-size: 22px;
+    color: #235275;
+}
+.about{
+    color: #BA5D2C;
+}
+@media (max-width: 480px) {
+    .nav{
+        padding-top: 50px;
+        height: 20px;
+    }
+    body{
+        overflow: auto;
+    }
+    .comfy{
+        display: none;
+    }
+    .as{
+        width: 270px;
+        justify-content: space-between;
+    }
+    .as a{
+        font-size: 15px;
+    }
+    .kulula{
+        display: none;
+    }
+    .btnAllProducts{
+        margin-left: -200px;
+    }
+    .na{
+        margin-top: -60px;
+    }
+    .box{
+        line-height: 50px   ;
+    }
+    .nav2{
+        display: block;
+    }
+    .nav3{
+        margin-top: 300px;
+        margin-left: -120px;
+    }
+    .lorem{
+        width: 373px;
+    }
+}

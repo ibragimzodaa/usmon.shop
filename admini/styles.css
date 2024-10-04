@@ -1,0 +1,179 @@
+body{
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+    font-family: "Nunito Sans", sans-serif;
+    width: 85%;
+    margin: auto;
+}
+.btnAdd{
+    background-color: #922c88;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.btnDel{
+    background-color: #922c88;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.btnBack{
+    background-color: #752c92;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.switch1{
+    cursor: pointer;
+}
+.switch2{
+    cursor: pointer;
+}
+.productImage{
+    width: 100px;
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    position: relative;
+    height: 70px;
+    top: 10px;
+}
+.status{
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.product{
+    background-color: white;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+tr,th{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.status{
+    position: relative;
+    bottom: 5px;
+    padding: 5px;
+}
+.product1{
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0.1px gray;
+}
+.productImage1{
+    width: 300px;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+}
+.tr{
+    position: relative;
+    bottom: 60px;
+    border-bottom: none;
+    left: 130px;
+}
+.tr button{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(79, 249, 0);
+    color: white;
+    padding: 4px;
+    margin-top: 10px;
+}
+.addUserForm input{
+    padding: 10px;
+    width: 300px;
+}
+.addUserForm select{
+    padding: 10px;
+    width: 324px;
+}
+.editUserForm input{
+    padding: 10px;
+    width: 300px;
+}
+.editUserForm select{
+    padding: 10px;
+    width: 324px;
+}
+input, select{
+    outline: none;
+}
+.editUserModal{
+    border: none;
+    border-radius: 5px;
+    margin-left: 910px;
+    margin-top: -10px;
+    animation: editUserModal 1s;
+}
+.addUserModal{
+    border: none;
+    border-radius: 5px;
+    margin-left: 910px;
+    margin-top: -10px;
+    animation: addUserModal 1s;
+}
+.formSearch{
+    display: inline;
+}
+.formSearch input{
+    padding: 10px;
+}
+.selectByStatus{
+    padding: 10px;
+}
+@keyframes addUserModal {
+    0%{
+        margin-left: 1300px;
+    }
+    100%{
+        margin-left: 910px;
+    }
+}
+@keyframes editUserModal {
+    0%{
+        margin-left: 1300px;
+    }
+    100%{
+        margin-left: 910px;
+    }
+}
+@media (max-width: 480px) {
+    table{
+        overflow: auto;
+        display: block;
+    }
+}

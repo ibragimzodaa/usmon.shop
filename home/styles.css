@@ -1,0 +1,226 @@
+@import url('https://fonts.cdnfonts.com/css/charm');
+*{
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+  .comfy {
+    font-family: 'Charm', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: white;
+  }
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.nav{
+    background-image: url(/images/Rectangle\ 37.png);
+    background-size: cover; 
+    background-position: center;
+    height: 500px;
+    display: flex;
+}
+.na{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: -440px;
+}
+.as{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.h1{
+    font-family: 'Charm', sans-serif;
+    margin-top: 170px;
+    margin-left: -1100px;
+    color: white;
+    font-size: 55px;
+}
+.h3{
+    margin-left: -1100px;
+    color: white;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.btnShow {
+    background-color: rgba(255, 255, 255, 0); 
+    border: 1px solid #ccc; 
+    color: black;
+    font-size: 16px;
+    padding: 20px;
+    cursor: pointer; 
+    outline: none; 
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: -1100px;
+}
+
+.btnShow:hover {
+    opacity: 0.8; 
+}
+.iconShop{
+    cursor: pointer;
+}
+.iconShop:hover{
+    opacity: 0.8;
+}
+.a:hover{
+    opacity: 0.8;
+}
+button:hover{
+    opacity: 0.8;
+}
+.Featured{
+    text-align: center;
+}
+.r{
+    color: #BA5D2C;
+    font-size: 40px;
+}
+.nav2{
+    margin-top: 50px;
+}
+.kulula{
+    position: absolute;
+    color: white;
+    background-color: #BA5D2C;
+    width: 25px;
+    height: 22px;
+    border-radius: 50%;
+    padding: 2px 0px;
+    text-align: center;
+    bottom: 530px;
+    left: 1060px;
+}
+.productImage{
+    width: 310px;
+    height: 200px;
+    cursor: pointer;
+}
+ .productImage:hover{
+    opacity: 0.8;
+}
+.product{
+    width: 310px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.company{
+    color: #00000061;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btnAllProducts{
+    background-color: #BA5D2C;
+    padding: 15px;
+    border: none;
+    margin-left: 540px;
+    border-radius: 10px;
+}
+
+.karzineIcon{
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+    margin-top: -180px;
+    display: none;
+}
+.product:hover .karzineIcon {
+    display: block;
+    position: relative;
+    left: 80px;
+}
+.productsDialog{
+    margin-left: 950px;
+    border: none;
+    animation: productDialog 1s;
+}
+@keyframes productDialog{
+    0%{
+        margin-left: 1250px;
+    }
+    100%{
+        margin-left: 950px;
+    }
+}
+.closeBtn {
+    animation: closeBtn 2s;
+}
+@keyframes closeBtn {
+    100%{
+        opacity: 1;
+    }
+    0%{
+        opacity: 0;
+    }
+}
+.closeBtn{
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.home{
+    color: #BA5D2C;
+}
+.karzineIcon:hover{
+    transition: 2s;
+}
+.item{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.item img{
+    width: 200px;
+    margin-right: 10px;
+}
+@media (max-width: 480px) {
+    .nav{
+        padding-top: 50px;
+        height: 20px;
+    }
+    body{
+        overflow: auto;
+    }
+    .comfy{
+        display: none;
+    }
+    .as{
+        width: 280px;
+        justify-content: space-between;
+    }
+    .as a{
+        font-size: 15px;
+    }
+    .kulula{
+        display: none;
+    }
+    .btnAllProducts{
+        margin-left: -200px;
+    }
+    .na{
+        margin-top: -60px;
+    }
+    .box{
+        line-height: 50px   ;
+    }
+}

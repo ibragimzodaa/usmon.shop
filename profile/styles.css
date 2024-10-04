@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+.box{
+    display: flex;
+}
+.div2{
+    width: 550px;
+    height: 400px;
+}
+.box{
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.lorem{
+    width: 700px;
+}
+.btnBack{
+    background-color: blanchedalmond;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+}
+.btnBack a{
+    text-decoration: none;
+    color: black    ;
+}
+@media (max-width: 480px) {
+    .div2{
+        width: 365px;
+    }
+    .box{
+        flex-wrap: wrap;
+    }
+    .lorem{
+        width: 370px;
+    }
+}
